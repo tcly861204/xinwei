@@ -1,0 +1,45 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="time">
+    <view class="time-header">
+      <view class="item year">
+        <view bindtap="changeTime" data-item="preYear" class="icon icon-pre">
+          <image src="https://cdn.dev.op114.com/2017/11/15/386/o_1buvadh3114d51ds7126hsldaqtn.png"></image>
+        </view>
+        {{time_Y}}年
+        <view bindtap="changeTime" data-item="nextYear" class="icon icon-next">
+          <image src="https://cdn.dev.op114.com/2017/11/15/386/o_1buvao8l34gd1pcc4hi13ff9bes.png"></image>
+        </view>
+      </view>
+      <view class="item month">
+        <view bindtap="changeTime" data-item="preMonth" class="icon icon-pre">
+          <image src="https://cdn.dev.op114.com/2017/11/15/386/o_1buvadh3114d51ds7126hsldaqtn.png"></image>
+        </view>
+        {{time_m}}月
+        <view bindtap="changeTime" data-item="nextMonth" class="icon icon-next">
+          <image src="https://cdn.dev.op114.com/2017/11/15/386/o_1buvao8l34gd1pcc4hi13ff9bes.png"></image>
+        </view> 
+      </view>
+    </view>
+    <view class="time-weeks">
+      <text class="item">一</text>
+      <text class="item">二</text>
+      <text class="item">三</text>
+      <text class="item">四</text>
+      <text class="item">五</text>
+      <text class="item">六</text>
+      <text class="item">日</text>
+    </view>
+    <view class='time-body' bindtouchstart='tapStart' bindtouchmove='tapMove' bindtouchend='tapEnd'>
+      <view class="rows" wx:for="{{[0, 1, 2, 3, 4, 5]}}" wx:for-item="i">
+        <block wx:for="{{[0, 1, 2, 3, 4, 5, 6]}}" wx:for-item="j">
+          <block wx:if="{{ start <= ((i*7)+j) && ((i*7)+j) < end }}">
+            <view wx:if="{{time_list[(i*7)+j]===time_d}}" class="item selected">{{ time_list[(i*7)+j]}}</view>
+            <view wx:else class="item nowMonth">{{ time_list[(i*7)+j]}}</view>
+          </block>
+          <view wx:else class="item">{{ time_list[(i*7)+j]}}</view>
+        </block>
+      </view>
+    </view>
+  </view>
+</view>
