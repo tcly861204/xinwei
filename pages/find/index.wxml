@@ -1,0 +1,100 @@
+<view class="header">
+      <image class="logo" src="../../image/find_logo.png" mode="widthFix"></image>
+      <view class="address">
+        <text class="text">深圳</text>
+      </view>
+      <view class="search-box">
+          <input  class="search" placeholder="请输入关键字" ></input>
+      </view>
+      <image class="topBg" src="../../image/findTop.jpg"></image>
+</view>
+
+  <view class="main">
+    <view class="swiper topic">
+      <text class="topic-vip">企业推荐</text>
+      <swiper indicator-dots="{{indicatorDots}}"
+        autoplay="{{autoplay}}" interval="{{interval}}" indicator-color="{{indicatorColor}}" indicator-active-color="{{indicatorActiveColor}}" duration="{{duration}}">
+        <block wx:for="{{topic}}" wx:key="*this">
+            <swiper-item>
+                <view class="topic-swiper">
+                    <view bindtap='viewTopic' class="topic-item" wx:for="{{item}}" wx:key="*this" wx:for-item="itemImg" style="background-image:url({{itemImg.logo}});" data-item="{{itemImg.id}}"> 
+                    </view>
+                </view> 
+            </swiper-item>
+        </block>
+      </swiper>
+    </view>
+  
+    <view class="menu">
+        <view class="menu-wrapper">
+             <scroll-view class="menu-scroll" bindtap="menuScrollTap" scroll-x="true">
+                <view data-name="" data-index="0" class="menu-item {{menuScrollClass[0]}}">全部</view>  
+                <view wx:for="{{categoryList}}" wx:key="id" data-name="{{item.categoryNameEn}}" data-index="{{index+1}}" class="menu-item {{menuScrollClass[index+1]}}">{{item.categoryName}}</view>
+              </scroll-view>
+        </view>
+        <view class="menu-race"></view>
+    </view>
+
+    <view class="adsList">
+       <view class="adsList-column">
+          <block wx:for="{{ads}}" wx:key="*this">
+            <view class="ads-item" wx:if="{{index%2===0}}" data-listItem="{{item.id}}"  bindtap="adsListItemTap">
+              <view class="ads-img-box">
+                <view class="ads-logo-box" wx:if="{{item.companyLogo}}">
+                  <image class="ads-logo" src="{{item.companyLogo}}" mode="widthFix"></image>
+                </view>
+
+                <view class="view-box">
+                  <image class="view-img" src="../../image/icons/icon_view.png"></image>
+                  <text class="view-num">{{item.viewCount}}</text>
+                </view>
+                <image class="ads-img-picture" src="{{item.pictureUrl}}?imageView2/2/w/320" mode="widthFix"></image>
+              </view>
+              <view class="ads-item-infos">
+                <text class="ads-title" wx:if="{{item.title}}">{{item.title}}</text>
+                <text class="ads-desc" wx:if="{{item.description}}">{{item.description}}</text>
+                <view class="ads-tags">
+                    <text class="tag-item">香港</text>
+                    <text class="tag-item">维多利亚</text>
+                </view>
+                <view class="ads-userInfo">
+                    <image class="user-face" src="{{item.avatorUrl}}?imageView2/2/w/320"></image>
+                    <text class="user-name">{{item.nickname}}</text>
+                    <text class="add-time">{{item.createTime}}</text>
+                </view>
+              </view>
+            </view>
+        </block>
+      </view>
+      <view class="adsList-column">
+        <block wx:for="{{ads}}" wx:key="*this">
+            <view class="ads-item" wx:if="{{index%2===1}}" data-listItem="{{item.id}}"  bindtap="adsListItemTap">
+              <view class="ads-img-box">
+                <view class="ads-logo-box" wx:if="{{item.companyLogo}}">
+                  <image class="ads-logo" src="{{item.companyLogo}}" mode="widthFix"></image>
+                </view>
+                <view class="view-box">
+                  <image class="view-img" src="../../image/icons/icon_view.png"></image>
+                  <text class="view-num">{{item.viewCount}}</text>
+                </view>
+                <image class="ads-img-picture" src="{{item.pictureUrl}}?imageView2/2/w/320" mode="widthFix"></image>
+              </view>
+              <view class="ads-item-infos">
+                <text class="ads-title" wx:if="{{item.title}}">{{item.title}}</text>
+                <text class="ads-desc" wx:if="{{item.description}}">{{item.description}}</text>
+                <view class="ads-tags">
+                    <text class="tag-item">香港</text>
+                    <text class="tag-item">维多利亚</text>
+                </view>
+                <view class="ads-userInfo">
+                    <image class="user-face" src="{{item.avatorUrl}}?imageView2/2/w/60"></image>
+                    <text class="user-name">{{item.nickname}}</text>
+                    <text class="add-time">{{item.createTime}}</text>
+                </view>
+              </view>
+            </view>
+        </block>
+      </view>  
+    </view>
+</view>
+

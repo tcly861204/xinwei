@@ -1,0 +1,140 @@
+<view class="menu">
+  <navigator class="menu-item active">最新动态</navigator>
+  <navigator class="menu-item">旅助动态</navigator>
+  <navigator class="menu-item">业内新闻</navigator>
+  <navigator class="menu-item">旅游资讯</navigator>
+</view>
+
+<view class="news-list">
+   <navigator class="item-url" open-type="navigate"  url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator class="item-url"  open-type="navigate" url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator class="item-url"  open-type="navigate" url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator class="item-url"  open-type="navigate" url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator class="item-url"  open-type="navigate" url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator class="item-url"  open-type="navigate" url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator class="item-url"  open-type="navigate" url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator class="item-url"  open-type="navigate" url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator class="item-url"  open-type="navigate" url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator class="item-url"  open-type="navigate" url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+        
+</view>

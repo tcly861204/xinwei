@@ -1,0 +1,32 @@
+<view class="section">
+  <view class="key-box">
+    <input class="key" type='text' placeholder="搜索你感兴趣的旅行社"/>
+  </view>
+  <view class="race-box" catchtap='selectRace'>
+    <text class="race-text">筛选</text>
+  </view>
+</view>
+<view class="list">
+  <block wx:for="{{companyList}}" wx:key="id" wx:for-item="cpy">
+    <navigator class="item-url" open-type="navigate" url='/pages/topic/index?id={{cpy.id}}'>
+      <view class="item">
+        <rich-text class="cpyName" type="h2">{{cpy.companyName}}</rich-text>
+        <view wx:if="{{ cpy.isStore || cpy.isDealer || cpy.isGroup || cpy.isLocal }}" class="tags">
+          <text wx:if="{{cpy.isStore}}" class="tag isStore">门市</text>
+          <text wx:if="{{cpy.isDealer}}" class="tag isDealer">批发商</text>
+          <text wx:if="{{cpy.isGroup}}" class="tag isGroup">组团社</text>
+          <text wx:if="{{cpy.isLocal}}" class="tag isLocal">地接社</text>
+        </view>
+        <view class="info">
+          <text wx:if="{{cpy.boss}}" class="info-user">{{cpy.boss}}</text>
+          <text wx:if="{{cpy.contact}}" class="info-tell">{{cpy.contact}}</text>
+        </view>
+        <view class="address">
+          <text class="ads">{{cpy.address}}</text>
+        </view>
+      </view>
+    </navigator>
+  </block>
+</view>
+<view class="noData {{showLoading}}">{{showLoadText}}</view>
+

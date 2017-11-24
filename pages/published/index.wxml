@@ -1,0 +1,2 @@
+cls<button bindtap="chooseImage">选择图片</button>
+<image wx:if="{{fileSrc}}" src="{{fileSrc}}"></image>

@@ -1,0 +1,31 @@
+{
+  "window": {
+    "backgroundTextStyle": "light",
+    "backgroundColor": "#212121",
+    "navigationBarBackgroundColor": "#0E92F3",
+    "navigationBarTitleText": "旅游人名片夹",
+    "navigationBarTextStyle": "#fff",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#bdd0dd",
+    "selectedColor": "#00b5ff",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/myCard/index",
+        "iconPath": "image/icons/icon_find.png",
+        "selectedIconPath": "image/icons/icon_find_on.png",
+        "text": "我的名片"
+      },
+      {
+        "pagePath": "pages/card/index",
+        "iconPath": "image/icons/icon_trips.png",
+        "selectedIconPath": "image/icons/icon_trips_on.png",
+        "text": "添加名片"
+      }
+    ]
+  }
+}

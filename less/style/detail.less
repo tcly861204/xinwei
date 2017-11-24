@@ -1,0 +1,52 @@
+.topBox{
+    width: 100%;
+    height: auto;
+    margin: 0 0 24rpx 0;
+    .topBox-img{
+        width: 100%;
+    }
+}
+
+.view-group{
+    width: 100%;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 28rpx;
+    display: flex;
+    background: #fff;
+    .view-item{
+        flex: 1;
+        text-align: center;
+        position: relative;
+        background-image: url(http://cdn.op110.com.cn/lib/imgs/op114_h5/icons_detail.png);
+        background-repeat: no-repeat;
+        background-size: 60rpx;
+        text-indent: 35rpx;
+        &:after{
+            position: absolute;
+            top: 12px;
+            right: 0;
+            content: "";
+            width: 1px;
+            height: 16px;
+            background: #ccc;
+        }
+        &:last-child{
+            &:after{
+                width: 0;
+            }
+        }
+        &:nth-child(1){
+            background-position: 30rpx 27rpx;
+        }
+        &:nth-child(2){
+            background-position: 20rpx 27rpx;
+        }
+        &:nth-child(3){
+            background-position: 20rpx 27rpx;
+        }
+        &:nth-child(4){
+            background-position: 20rpx 27rpx;
+        }
+    }
+}

@@ -1,0 +1,77 @@
+<view class="content">
+  <view class="ct-hd">
+    <rich-text type="h2" class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</rich-text>
+    <view class="tags">
+        <text>3天前</text>
+        <text>旅游人动态</text>
+        <text>来自 O110</text>
+    </view>
+  </view>
+  <view class="ct-by"> <view>TravelClick的一项最新研究表明，今年将是GDS渠道的旅行社预订酒店量突破纪录的一年。</view>
+    <view>这项研究调查了52个国家的900多家旅行社以及综合了TravelClick自己的数据，预计旅行社今年将在Amadeus、Sabre和Travelport系统中预订6800万酒店预订，这一数字比2016年多了200万。</view>
+    <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg" mode="widthFix"></image>
+    <view>接受调查的旅行社有一半的人表示，他们比两年前更频繁地使用GDS。此外，他们也在关注酒店的营销活动:超过三分之二的人表示他们知道GDS的促销短信，这也高于2015年的65%。</view>
+    <view>但与此同时，接受调查的70%的旅行社也表示，无论酒店广告投放的频次如何，他们还都将会预订一个比较大点的酒店。尽管旅行社可能会受到酒店促销的影响，但是当他们到酒店的时候，却还是能够依据自己的意愿和需求做出选择。</view>
+  </view>
+</view>
+
+<view class="news-list">
+  <rich-text type="h2" class="list-title">热门动态</rich-text>
+    <navigator class="item-url"  url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+     <navigator class="item-url"  url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+     <navigator class="item-url"  url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+    <navigator class="item-url"  url='/pages/newDetail/index?id=10'>
+      <view class="new-item">
+        <view class="img-box">
+        <image src="http://cdnfile.op110.com.cn/files/1/file/20171122/01_1511316423127.jpg"></image>
+        </view>
+        <view class="infos">
+            <text class="title">法籍老板透露上海迪士尼成功原因：中美达成平衡</text>
+            <view class="tags">
+                <text>2017-09-25</text><text>旅游人动态</text>
+            </view>
+        </view>
+      </view>
+    </navigator>
+    
+   
+   
+    
+        
+</view>

@@ -1,0 +1,54 @@
+<view class="module-top">
+<view class="userInfo">
+  <image class="userFace" src="{{userFace}}"></image>
+  <text class="userName">{{userName}}</text>
+</view>
+<image class="userInfo-bg" src="../../image/my_bg.jpg" mode="widthFix"></image>
+</view>
+<view class="weui-ceils">
+  <navigator class="weui-ceil">
+    <view class="weui-ceil-body">我的发布</view>
+    <view class="weui-ceil-ft">7</view>
+  </navigator>
+  <navigator class="weui-ceil">
+    <view class="weui-ceil-body">我的转发</view>
+    <view class="weui-ceil-ft">10</view>
+  </navigator>
+</view>
+
+<view class="weui-ceils">
+  <navigator class="weui-ceil" url='/pages/card/index'>
+    <view class="weui-ceil-body">名片中心</view>
+    <view class="weui-ceil-ft"></view>
+  </navigator>
+  <navigator class="weui-ceil">
+    <view class="weui-ceil-body">我的铜钱</view>
+    <view class="weui-ceil-ft"></view>
+  </navigator>
+  <navigator class="weui-ceil">
+    <view class="weui-ceil-body">我的邀请码</view>
+    <view class="weui-ceil-ft">立得100铜钱</view>
+  </navigator>
+</view>
+
+<view class="weui-ceils">
+  <navigator class="weui-ceil">
+    <view class="weui-ceil-body">旅游人认证</view>
+    <view class="weui-ceil-ft"></view>
+  </navigator>
+</view>
+
+<view class="weui-ceils">
+  <navigator class="weui-ceil">
+    <view class="weui-ceil-body">意见反馈</view>
+    <view class="weui-ceil-ft"></view>
+  </navigator>
+</view>
+
+
+<view class="weui-ceils">
+  <navigator class="weui-ceil">
+    <view class="weui-ceil-body">修改密码</view>
+    <view class="weui-ceil-ft"></view>
+  </navigator>
+</view>

@@ -1,0 +1,107 @@
+  .menu{
+      position: fixed;
+      top:0;
+      left: 0;
+      right: 0;
+      height: 80rpx;
+      z-index: 9;
+      background: #fff;
+      box-shadow: 20rpx 0 5rpx rgba(0, 0, 0, .1);
+      display: flex;
+      &-item{
+          flex: 1;
+          margin: 0;
+          padding: 0;
+          font-size: 28rpx;
+          height: 80rpx;
+          line-height: 80rpx;
+          text-align: center;
+          color:#404040;
+      }
+      .active{
+          color:#0e92f3;
+          position: relative;
+          &:after{
+              content: "";
+              position: absolute;
+              left: 50%;
+              bottom: 0;
+              width: 52rpx;
+              height: 4rpx;
+              margin-left: -26rpx;
+              background: #0e92f3;
+          }
+      }
+  }
+
+  .news-list{
+    width: 100%;
+    height: auto;
+    padding: 90rpx 0 10rpx;
+    box-sizing: border-box;
+    .item-url{
+      width: 100%;
+      padding: 10rpx 20rpx;
+    }
+    .new-item{
+      width: 100%;
+      padding: 20rpx;
+      margin-bottom: 20rpx;
+      border-radius: 8rpx;
+      background: #fff;
+        overflow: hidden;
+        display: flex;
+        &:last-child{
+            margin-bottom: 0;
+        }
+        .img-box{
+            width: 200rpx;
+            height: 140rpx;
+            image{
+                width: 100%;
+                height: 100%;
+                border-radius: 6rpx;
+                display: block;
+            }            
+        }
+        .infos{
+            flex: 1;
+            padding: 0 0 0 18rpx;
+            .title{
+                padding: 0;
+                margin: 0;
+                min-height: 60rpx;
+                font-size: 30rpx;
+                line-height: 44/30;
+                display: -webkit-box;
+                -webkit-box-orient: vertical;
+                -webkit-line-clamp: 2;
+                overflow: hidden;
+            }
+            .tags{
+                font-size:22rpx;
+                color:#808080;
+                text{
+                    display: inline-block;
+                    padding: 0 14rpx;
+                    position: relative;
+                    &:first-child{
+                        padding-left: 0;
+                        &:after{
+                            content: "";
+                            position: absolute;
+                            right: 0;
+                            top:50%;
+                            margin: -3px 0 0 0;
+                            width: 1px;
+                            height: 6px;
+                            right: 0;
+                            background: #808080;
+                        }
+                    }
+                } 
+            }
+        }
+       
+    }
+}

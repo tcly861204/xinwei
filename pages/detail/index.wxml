@@ -1,0 +1,10 @@
+<view class="topBox">
+   <image wx:if="{{rs.pictureUrl}}" class="topBox-img" src="{{rs.pictureUrl}}?imageMogr2/thumbnail/350>" bindtap="previewImage" mode="widthFix"></image>
+</view>
+
+<view class="view-group">
+    <text class="view-item">视频(0)</text>
+    <text class="view-item">图片(0)</text>
+    <text class="view-item">附件(0)</text>
+    <text class="view-item">团期(0)</text>
+</view>

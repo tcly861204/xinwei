@@ -1,0 +1,2 @@
+<button type="default" bindtap="chooseImg">上传图片</button>
+<button type="primary" bindtap="downImg">下载图片</button>

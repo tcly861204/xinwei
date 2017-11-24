@@ -1,0 +1,3 @@
+<view class="wrapper">
+<map class="mapCtrl" longitude="{{location.longitude}}" latitude="{{location.latitude}}" markers="{{markers}}" covers="{{covers}}"></map>
+</view>

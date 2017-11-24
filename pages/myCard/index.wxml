@@ -1,0 +1,40 @@
+<view class="cardInfo">
+  <view class="userList">
+    <image class="userFace" src="{{userInfo.userFace}}"></image>
+    <text class="text userName">{{userInfo.userName}}</text>
+    <text class="text job">{{userInfo.job}}</text>
+    <text class="text tell">{{userInfo.tell}}</text>
+    <text class="text cpy">公司： {{userInfo.cpy}}</text>
+    <text class="text cpyType">业务： {{userInfo.cpyType}}</text>
+    <text class="text address">地址： {{userInfo.address}}</text>
+    <text class="text email">邮箱： {{userInfo.email}}</text>
+  </view>
+</view>
+
+<view class="menuBtns">
+    <view class="menuItem item-save" catchtap='saveInfo'>
+    <image class="icon" src="http://cdnfile.op110.com.cn/files/1/file/20171120/save_1511170515111.png"></image>
+    <text class="text">存入手机</text>
+    </view>
+    <view class="menuItem item-pass">
+    <image class="icon" src="http://cdnfile.op110.com.cn/files/1/file/20171120/pass_1511170532256.png"></image>
+    <text class="text">回传名片</text>
+    </view>
+    <view class="menuItem item-share">
+    <image class="icon" src="http://cdnfile.op110.com.cn/files/1/file/20171120/share_1511170918027.png"></image>
+    <text class="text">分享</text>
+    </view>
+    <view class="menuItem item-collect">
+    <image class="icon" src="http://cdnfile.op110.com.cn/files/1/file/20171120/collect_1511170889279.png"></image>
+    <text class="text">收藏</text>
+    </view>
+</view>
+
+
+<view class="cardMain">
+  <view class="content">深圳同天下科技有限公司是集旅行社SaaS智能管理系统研发、销售及建立行业数据中心为一体的新型互联网企业，也是国家及深圳市高新技术企业。</view>
+  <view class="video"></view>
+  <view class="imgList">
+    <image class="imgItem" wx:for="{{imgList}}" wx:key="{{*this}}" src="{{item}}" mode="widthFix"></image>
+  </view>
+</view>
